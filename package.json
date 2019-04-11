@@ -1,0 +1,18 @@
+{
+  "name": "wienerlinien-tile38",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-json": "^2.0.2",
+    "koa-path-match": "^2.0.0",
+    "node-fetch": "^2.3.0",
+    "tile38": "^0.6.7"
+  }
+}
