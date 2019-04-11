@@ -33,7 +33,7 @@ app.use(async (ctx) => {
         var map = (res.objects || []).map(async element => {
             return {
                 lat: element.object.coordinates[0],
-                lng: element.object.coordinates[0],
+                lng: element.object.coordinates[1],
                 name: (await client.get("haltestelle", element.id + ":name")).object,
                 id: element.id,
                 diva: element.fields[divaFieldIdx]
